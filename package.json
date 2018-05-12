@@ -1,7 +1,7 @@
 {
-  "name": "dou-loader",
+  "name": "dou-fetch",
   "version": "0.0.0",
-  "description": "Load dou documents",
+  "description": "Fetch latest DOU documents",
   "homepage": "",
   "author": {
     "name": "amimaro",
@@ -67,7 +67,7 @@
       "prettier"
     ]
   },
-  "repository": "amimaro/dou-loader",
+  "repository": "amimaro/dou-fetch",
   "jest": {
     "testEnvironment": "node"
   },
