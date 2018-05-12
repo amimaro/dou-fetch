@@ -1,4 +1,4 @@
-# dou-loader [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# dou-fetch [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Load dou documents
 
 ## Installation
@@ -10,9 +10,19 @@ $ npm install --save dou-loader
 ## Usage
 
 ```js
-const douLoader = require('dou-loader');
+const douFetch = require('dou-fetch');
 
-douLoader('Rainbow');
+douFetch()
+  .then(
+    res => {
+      console.log(res)
+    }
+  )
+  .catch(
+    err => {
+      console.error(err)
+    }
+  )
 ```
 ## License
 
